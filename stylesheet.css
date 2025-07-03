@@ -1,0 +1,210 @@
+                                   /* Corps De La Page */
+body {
+  font-family: georgia;
+  font-style: normal;
+  text-align: center;
+}  
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.main {
+  max-width: 1280px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+                                    /* Volet Menu, Liens Externes Interne */
+.menu {                             
+  background: #232428; 
+  color: #fff;
+  padding: 0.5em 2em;
+  position: fixed;
+  text-align: center; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+  height: 33px;
+}
+
+.menu ul {  
+  padding: 0.5em 0; 
+  margin: 0;  
+}  
+
+.menu a { 
+  padding: 1em 3em; 
+  color: #fff; 
+  text-decoration: none; 
+  text-align: center;
+  height: 33px; 
+  transition: .5s;
+  display: inline;
+}
+
+.menu a:hover {
+  background: #66e3f9;             
+}
+
+.menu a:active {
+  background: #019cb1;             
+}                 
+                                       /* Logo, Image */
+.logo {
+  margin: 100px;
+} 
+                                       /* Accueil, Paragraphe */                    
+.accueil {
+  min-height: 200px; 
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background: #e7fdff;
+  background: linear-gradient(#66e3f9,#e7fdff  );
+}
+
+.accueil a{
+  text-decoration: none;
+}
+
+.accueil a:link {
+  border-bottom: 1px solid;
+  color: #000000;
+}
+
+.accueil a:visited {
+  color: #000000;
+}
+
+ .accueil a:focus {
+  border-bottom: 1px solid;
+  color: #9c0049;
+}
+
+.accueil a:hover {
+  border-bottom: 1px solid;
+  color: #4c12d2;
+}
+
+.accueil a:active {
+  color: #0082ce;
+  
+}                                      /* Produits, Liens Externes */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex: 1 25%;
+}
+
+.product-image img {
+  padding: 2%;
+  transition: .2s;
+  margin: 10% 8%;
+  border: 1px solid #66e3f9;
+}
+
+.product-image img:hover {
+  box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+  background: #66e3f9;
+  background: radial-gradient(#f9feff, #66e3f9 );
+}
+
+.product-image img:active {
+  background:  #0082ce;
+  background: radial-gradient(#e9f7ff, #0082ce );
+  border: 1px solid #0082ce;
+} 
+
+.product-info {
+  margin-top: 0;
+  text-align: center;
+}
+
+.product-info a:link { 
+  color: #000000;
+}
+
+.product-info a:visited {
+  color: #000000;
+}
+
+.product-info a:focus {
+  border-bottom: 1px solid;
+  color: #9c0049;
+}
+
+.product-info a:hover {
+  color: #47e4ff;
+}
+
+.product-info a:active {
+  color: #0082ce;
+}
+                               /* Boutons Pages 1 2, Liens Internes */
+.page {                     
+  display: inline;                 
+}
+
+.page a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 3%;
+  margin-right: 0.625%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+.page a:link {
+  background: #c4c4c4;
+}  
+                    
+.page a:hover {
+  background: #888888;
+}
+
+.page a:active {
+  background: #66e3f9;
+}
+                                 /* Bas De Page, Paragraphe */
+.footer-basic {
+  padding:40px 0;
+  background-color:#e3e3e3;
+  color:#353535;
+}
+
+.social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.social p {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline;
+  text-align:center;
+  margin:0px;
+  color:inherit;
+  opacity:0.75;
+}
+
+
