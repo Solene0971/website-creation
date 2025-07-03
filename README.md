@@ -19,7 +19,7 @@ Ce projet m’a permis de me familiariser avec les langages de base du web (HTML
 ## Technologies utilisées
 
 - **Langages** : HTML, CSS 
-- **Outils** : Thonny 
+- **Outil** : Thonny 
 
 ---
 
