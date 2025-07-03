@@ -11,7 +11,7 @@ Ce projet m’a permis de me familiariser avec les langages de base du web (HTML
 ## Contenu du projet
 
 - **Page d’accueil** présentant la boutique  
-- **Pages produits** avec photos et descriptions  
+- **Pages produits** avec photos et descriptions /!\ les liens vers les produits ne sont plus d'actualités
 - **Structure de navigation** simple et intuitive  
 
 ---
