@@ -23,6 +23,12 @@ Ce projet m’a permis de me familiariser avec les langages de base du web (HTML
 
 ---
 
+## Améliorations 
+
+- Adptation du code pour un site **responsive**
+
+---
+
 ## Installation
 
 ### 1. Cloner le projet
